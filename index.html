@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <link rel="stylesheet" href="css/modules.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/type.css">
-  <link rel="stylesheet" href="css/modules.css">
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
   <section class="contact pad-t-2 pad-b-2">
-    <div class="max-length">
-      <h1>Want to go to Mars?</h1>
+    <div class="max-length gutter">
+      <h1>Want to go to Mars?<hr></h1>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
-      <h2>Personal details<span></span></h2>
+      <h2 class="italic"><span>Personal details&nbsp;&nbsp;&nbsp;</h2>
 
       <form class="push-0" action="https://formspree.io/bradlet@algonquincollege.com" method="POST">
         <div class="push">
@@ -46,13 +46,13 @@
           <textarea id="details" name="message" required></textarea>
         </div>
 
-        <h2>Mission statement<span></span></h2>
+        <h2 class="italic">Mission statement&nbsp;&nbsp;&nbsp;</h2>
 
         <div class="push">
           <label for="details">Why do you want to go to Mars?</label>
           <textarea id="details" name="message" required></textarea>
         </div>
-        <div class="push">
+        <div class="push text-center">
           <button class="btn btn-light mega" type="submit">Send message</button>
         </div>
       </form>
