@@ -15,11 +15,8 @@
   <section class="contact pad-t-2 pad-b-2">
     <div class="max-length gutter">
       <h1 class="push-0">Want to go to Mars?</h1>
-      <hr>
       <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-
       <h2 class="italic giga">Personal details&nbsp;&nbsp;&nbsp;</h2>
-
       <form class="push-0 grid" action="https://formspree.io/bradlet@algonquincollege.com" method="POST">
         <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 name">
           <label for="name">Name</label>
@@ -32,6 +29,7 @@
         <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 email">
           <label for="email">Email</label>
           <input id="email" type="email" placeholder="" name="email" required>
+          <input type="text" name="subject" value="Request to join the mission" hidden>
         </div>
         <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 fitness">
           <label for="fitness">Physical fitness</label>
@@ -46,9 +44,7 @@
           <label for="address">Address</label>
           <textarea id="address" name="address" required></textarea>
         </div>
-
         <h2 class="italic giga unit xs-1 s-1 m-1 l-1 xl-1">Mission statement&nbsp;&nbsp;&nbsp;</h2>
-
         <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
           <label for="details">Why do you want to go to Mars?</label>
           <textarea id="details" name="message" required></textarea>
