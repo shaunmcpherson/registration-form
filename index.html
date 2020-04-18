@@ -16,42 +16,47 @@
     <div class="max-length gutter">
       <h1 class="push-0">Want to go to Mars?</h1>
       <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <h2 class="italic giga">Personal details&nbsp;&nbsp;&nbsp;</h2>
       <form class="push-0 grid" action="https://formspree.io/bradlet@algonquincollege.com" method="POST">
-        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 name">
-          <label for="name">Name</label>
-          <input id="name" name="name" required>
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 age">
-          <label for="age">Age</label>
-          <input id="age" name="age" required>
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 email">
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="" name="email" required>
-          <input type="text" name="subject" value="Request to join the mission" hidden>
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 fitness">
-          <label for="fitness">Physical fitness</label>
-          <select id="fitness" name="_fitness">
-            <option value="">Super-human</option>
-            <option value="">Fit as a fiddle</option>
-            <option value="">Not terribly strong</option>
-            <option value="">A little couch-potato-y</option>
-          </select>
-        </div>
-        <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
-          <label for="address">Address</label>
-          <textarea id="address" name="address" required></textarea>
-        </div>
-        <h2 class="italic giga unit xs-1 s-1 m-1 l-1 xl-1">Mission statement&nbsp;&nbsp;&nbsp;</h2>
-        <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
-          <label for="details">Why do you want to go to Mars?</label>
-          <textarea id="details" name="message" required></textarea>
-        </div>
-        <div class="push text-center unit xs-1 s-1 m-1 l-1 xl-1">
-          <button class="btn btn-light kilo" type="submit">Register for the trip!</button>
-        </div>
+        <fieldset>
+          <legend class="italic giga">Personal details&nbsp;&nbsp;&nbsp;</legend>
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 name">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 age">
+            <label for="age">Age</label>
+            <input id="age" name="age" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 email">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="" name="email" required>
+          </div>
+          <div class="push-0">
+            <label for="subject"></label>
+            <input id="subject" type="hidden" name="subject" value="Request to join the mission" hidden>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 fitness">
+            <label for="fitness">Physical fitness</label>
+            <select id="fitness" name="_fitness">
+              <option value="">Super-human</option>
+              <option value="">Fit as a fiddle</option>
+              <option value="">Not terribly strong</option>
+              <option value="">A little couch-potato-y</option>
+            </select>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
+            <label for="address">Address</label>
+            <textarea id="address" name="address" required></textarea>
+          </div>
+          <legend class="italic giga unit xs-1 s-1 m-1 l-1 xl-1">Mission statement&nbsp;&nbsp;&nbsp;</legend>
+          <div class="push unit xs-1 s-1 m-1 l-1 xl-1">
+            <label for="details">Why do you want to go to Mars?</label>
+            <textarea id="details" name="message" required></textarea>
+          </div>
+          <div class="push text-center unit xs-1 s-1 m-1 l-1 xl-1">
+            <button class="btn btn-light kilo" type="submit">Register for the trip!</button>
+          </div>
+        </fieldset>
       </form>
     </div>
   </section>
